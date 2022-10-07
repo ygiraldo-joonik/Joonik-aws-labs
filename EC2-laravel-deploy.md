@@ -189,19 +189,15 @@ sudo ufw status
 ```
 
 ### Instalar Certbot
-Certbot es un cliente que se utiliza para solicitar un certificado SSL con protocolo ACME e implementarlo en un servidor web.
+Certbot es un cliente que se utiliza para solicitar un certificado SSL con protocolo ACME e implementarlo en un servidor web, estos certificados son vigentes por 3 meses y es necesario renovarlos.
 
 ```
 sudo apt install certbot python3-certbot-apache
+sudo certbot --apache
 ```
 
-
-
-
-
-
-
-
-
-
+Certbot utiliza un cron job para revonar los certificados, podemos consultar el estado de este cron ejecutando 
+```
+sudo systemctl status certbot.timer
+```
 
