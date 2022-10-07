@@ -10,7 +10,7 @@
 * [Instalar Nodejs](#instalar-nodejs).
 * [Clonar repositorio](#clonar-repositorio).
 * [Correr migraciones y semillas](#correr-migraciones-y-semillas).
-* [Configurar PHP.ini](#configurar.ini).
+* [Configurar PHP.ini](#configurarphpini).
 * [Configurar Apache](#configurar-apache).
 * [Configurar Certificado SSL](#configurar-certificado-ssl).
 
