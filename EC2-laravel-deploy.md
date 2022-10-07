@@ -196,7 +196,7 @@ sudo apt install certbot python3-certbot-apache
 sudo certbot --apache
 ```
 
-Certbot utiliza un cron job para revonar los certificados, podemos consultar el estado de este cron ejecutando 
+Certbot utiliza un cron job para renovar los certificados, podemos consultar el estado de este cron ejecutando 
 ```
 sudo systemctl status certbot.timer
 ```
